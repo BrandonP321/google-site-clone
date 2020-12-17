@@ -48,10 +48,12 @@ footer {
     border-radius: 2px;
     text-decoration: none;
     font-size: 14px;
+    color: black;
 }
 
 .btns-flex > a:hover {
     box-shadow: 0 0 2px 0px #777777;
+    color: black;
 }
 
 .content {
