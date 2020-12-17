@@ -19,6 +19,18 @@ header a:hover {
     color: black;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 12px 19px;
+    border-top: 1px solid #d6d6d6;
+}
+
 .btns-flex {
     width: 48%;
     margin: 29px auto;
@@ -44,6 +56,40 @@ header a:hover {
     max-width: 580px;
     margin: 0 auto;
     top: 100px;
+}
+
+.footer-item-center {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+}
+
+.footer-item-center > a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-item-center > a:hover {
+    text-decoration: underline;
+}
+
+.footer-items {
+    display: flex;
+}
+
+.footer-items > a {
+    margin: 0 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    z-index: 100;
+}
+
+.footer-items > a:hover {
+    color: black;
+    text-decoration: underline;
 }
 
 .header-flex-group {
