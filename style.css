@@ -90,6 +90,13 @@ header a:hover {
     outline: none;
 }
 
+.search-icon {
+    position: absolute;
+    height: 45%;
+    left: 15px;
+    top: 26%;
+}
+
 .sign-in-btn {
     position: relative;
     bottom: 8px;
