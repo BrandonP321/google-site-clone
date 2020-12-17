@@ -19,6 +19,25 @@ header a:hover {
     color: black;
 }
 
+.btns-flex {
+    width: 49%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns-flex > a {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.btns-flex > a:hover {
+    box-shadow: 0 0 2px 0px #777777;
+}
+
 .content {
     position: relative;
     width: 90%;
@@ -52,7 +71,7 @@ header a:hover {
 }
 
 .search-form:hover {
-    border: none;
+    border-color: white;
     box-shadow: 0 0 5px #b1b1b1;
 }
 
